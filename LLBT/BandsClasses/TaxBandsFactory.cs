@@ -3,15 +3,15 @@ namespace LLBT.BandsClasses
 {
     public class TaxBandsFactory
     {
-        private readonly ITaxFactory _taxBandProvider;
+        private readonly ITaxFactory _taxBand;
 
-        public TaxBandsFactory(ITaxFactory taxBandProvider)
+        public TaxBandsFactory(ITaxFactory taxBand)
         {
-            _taxBandProvider = taxBandProvider;
+            _taxBand = taxBand;
         }
         public List<ITaxBand> GetTaxBands()
         {
-            return _taxBandProvider.GetTaxBands();
+            return _taxBand.GetTaxBands();
         }
        
     }
