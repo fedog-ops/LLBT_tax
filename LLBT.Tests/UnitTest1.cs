@@ -1,19 +1,17 @@
-using LLBT.BandsClasses;
-using LLBT.BandsFactory;
-using LLBT.Input;
-using LLBT.Notifier;
 using LLBT.Service;
 using LLBT.Strategy;
 using NUnit.Framework.Internal;
+using System.Diagnostics.CodeAnalysis;
+using System.Text.RegularExpressions;
 
 namespace LLBT.Tests
 
 {
     public class TaxTests
-    {
+    { 
         private TaxService _taxService;
         [SetUp]
-        
+
         public void SetUp()
         {
             ITaxFactory llbtTaxes = new LLBTTaxBands();
@@ -31,9 +29,6 @@ namespace LLBT.Tests
             decimal expected = 0;
 
             // Act
-         
-           
-            decimal tax = _taxService.CalculateTax(salary);
 
             // Assert
             Assert.That(tax, Is.EqualTo(expected));
@@ -46,6 +41,10 @@ namespace LLBT.Tests
             decimal expected = 1099.98m;
 
             // Act
+            TaxFactory taxFactory = new TaxFactory();
+            ConsoleNotifier consoleNotifier = new ConsoleNotifier();
+            var taxService = new TaxService(taxFactory, consoleNotifier);
+            decimal tax = taxService.CalculateTax(salary);
 
             decimal tax = _taxService.CalculateTax(salary);
             // Assert
@@ -59,7 +58,6 @@ namespace LLBT.Tests
             decimal expected = 3349.93m;
 
             // Act
-            decimal tax = _taxService.CalculateTax(salary);
 
             // Assert
             Assert.That(tax, Is.EqualTo(expected));
@@ -72,7 +70,6 @@ namespace LLBT.Tests
             decimal expected = 23349.83m;
 
             // Act
-            decimal tax = _taxService.CalculateTax(salary);
 
             // Assert
             Assert.That(tax, Is.EqualTo(expected));
@@ -85,7 +82,6 @@ namespace LLBT.Tests
             decimal expected = 78349.71m;
 
             // Act
-            decimal tax = _taxService.CalculateTax(salary);
             // Assert
             Assert.That(tax, Is.EqualTo(expected));
         }
