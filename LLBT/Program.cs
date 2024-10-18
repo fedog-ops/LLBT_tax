@@ -1,8 +1,8 @@
-﻿using LLBT.BandsFactory;
-using LLBT.Input;
-using LLBT.Notifier;
-using LLBT.Service;
-using LLBT.Strategy;
+﻿using LBTT.BandsFactory;
+using LBTT.Input;
+using LBTT.Notifier;
+using LBTT.Service;
+using LBTT.Strategy;
 
 class Program
 {

@@ -1,4 +1,4 @@
-﻿namespace LLBT.Notifier
+﻿namespace LBTT.Notifier
 {
     public class ConsoleNotifier : ITaxNotifier
     {

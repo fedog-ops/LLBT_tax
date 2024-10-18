@@ -1,6 +1,6 @@
-﻿using LLBT.BandsClasses;
+﻿using LBTT.BandsClasses;
 
-namespace LLBT.BandsFactory
+namespace LBTT.BandsFactory
 {
     public interface ITaxFactory
     {

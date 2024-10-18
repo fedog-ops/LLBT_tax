@@ -1,6 +1,6 @@
-﻿using LLBT.BandsClasses;
+﻿using LBTT.BandsClasses;
 
-namespace LLBT.Strategy
+namespace LBTT.Strategy
 {
     public class TaxStrategy : ITaxStrategy
     {
@@ -15,10 +15,7 @@ namespace LLBT.Strategy
                 {
                     decimal taxableAmount = Math.Min(salary, band.End) - band.Start;
                     total += taxableAmount * band.Rate;
-
-                    Console.WriteLine($"Band: {band.Start} - {band.End} @ {band.Rate * 100}%");
-                    Console.WriteLine($"Taxable Amount for this band: £{taxableAmount}");
-                    Console.WriteLine($"Tax for this band: £{taxableAmount * band.Rate}");
+                                 
                 }
             }
 

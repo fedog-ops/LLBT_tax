@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLBT", "LLBT\LLBT.csproj", "{91E56BC6-A071-48E4-B347-9D9D6208D8E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBTT", "LLBT\LBTT.csproj", "{91E56BC6-A071-48E4-B347-9D9D6208D8E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLBT.Tests", "LLBT.Tests\LLBT.Tests.csproj", "{9CB943FD-22F7-4660-98D1-6ED4D6A4A061}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBTT.Tests", "LLBT.Tests\LBTT.Tests.csproj", "{9CB943FD-22F7-4660-98D1-6ED4D6A4A061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

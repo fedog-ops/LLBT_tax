@@ -1,4 +1,4 @@
-﻿namespace LLBT.BandsClasses
+﻿namespace LBTT.BandsClasses
 {
     public class TaxBand : ITaxBand
     {

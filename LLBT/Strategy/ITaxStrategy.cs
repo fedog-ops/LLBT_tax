@@ -1,7 +1,7 @@
 ﻿
-using LLBT.BandsClasses;
+using LBTT.BandsClasses;
 
-namespace LLBT.Strategy
+namespace LBTT.Strategy
 {
     public interface ITaxStrategy
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LLBT.BandsClasses
+namespace LBTT.BandsClasses
 {
     public class UpperTaxBand : ITaxBand
     {

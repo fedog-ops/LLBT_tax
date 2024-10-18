@@ -1,9 +1,9 @@
-﻿using LLBT.BandsClasses;
-using LLBT.BandsFactory;
-using LLBT.Notifier;
-using LLBT.Strategy;
+﻿using LBTT.BandsClasses;
+using LBTT.BandsFactory;
+using LBTT.Notifier;
+using LBTT.Strategy;
 
-namespace LLBT.Service
+namespace LBTT.Service
 {
     public class TaxService
     {

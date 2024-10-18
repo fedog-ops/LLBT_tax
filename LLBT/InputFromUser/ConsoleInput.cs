@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LLBT.Input
+namespace LBTT.Input
 {
     public class ConsoleInput : ITaxInput
     {

@@ -1,12 +1,12 @@
-﻿using LLBT.BandsClasses;
-using LLBT.BandsFactory;
+﻿using LBTT.BandsClasses;
+using LBTT.BandsFactory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LLBT.BandsFactory
+namespace LBTT.BandsFactory
 {
     public class FelixsTaxes : ITaxFactory
     {

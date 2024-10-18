@@ -1,5 +1,5 @@
-﻿using LLBT.BandsFactory;
-namespace LLBT.BandsClasses
+﻿using LBTT.BandsFactory;
+namespace LBTT.BandsClasses
 {
     public class TaxBandsFactory
     {
